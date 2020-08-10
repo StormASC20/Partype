@@ -6,11 +6,25 @@
     <link rel="stylesheet" href="style.css">
     <script src = script.js></script>
     <title>Partype</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <meta name="google-signin-client_id" content="67502043224-0s7gkpdokean5hvpoidlppr5oihnq7ac.apps.googleusercontent.com">
 </head>
 <body>
-
+    <img src="assets/3rd_Logo.png" id="partype">
+    <div class="signs">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+    </div>
     <div class="main_container">
         <header>
-            <img src="assets/3rd_Logo.png" id="partype">
+            
             <img src="assets/homeImg.png" id="banner">
-            <p> You do the partying We do the planning </p> 
+            <p id="intro"> <span id="sock"> You do the partying,</span> <br><span> <strong>We do the planning! </strong></span></p> 
+            
+        </header>
+    </div>
+    <div class="getStarted">
+        <button class="startBtn">Get Started</button>
+    </div>
+</body>

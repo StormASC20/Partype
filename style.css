@@ -1,16 +1,70 @@
+body{
+    margin:0px;
+    background-color:#FFB5C2;
+
+}
 #partype{
     margin-bottom: 5px;
     width: 200px;
 }
 
+#sock{
+    text-decoration: overline;
+}
+
+span{
+    text-decoration: underline;
+}
+
 #banner{
-    width: 1000px;
-    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2900px;
+    height: 700px;
     margin-top: 30px;
-    
 }
 
 h1{
     font-size: medium;
+}
+
+p {
     
+    font-size: 30px;
+    text-align: center;
+    color: #EB5E55;
+    
+}
+
+@media(max-width: 3100px) {
+    #banner{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:75%;
+        height:auto;
+        align-items: center;
+    }
+}
+.startBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+    border-style: groove;
+    border-color: #3A506B;
+    background-color: #D9D0DE;
+}
+
+.startBtn:hover{
+    background-color: #44355B;
+    color: white;
+    border-color: #95190C ;
+    cursor:pointer;
+
+    transition: ease-in;
+    transition-duration: 0.5s;
 }
