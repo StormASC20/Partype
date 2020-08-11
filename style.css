@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 body{
     margin:0px;
     background-color:#FFB5C2;
 
+=======
+body {
+    background-color: rgb(255, 181, 194);
+    margin: 0px;
+>>>>>>> d2778623ef74de098547a1889145f407ead4fac2
 }
+
 #partype{
     margin-bottom: 5px;
     width: 200px;
@@ -26,8 +33,10 @@ span{
 }
 
 h1{
+<<<<<<< HEAD
     font-size: medium;
 }
+
 
 p {
     
@@ -48,10 +57,49 @@ p {
     }
 }
 .startBtn{
+    font-size: medium;   
+}
+@media (max-width: 3100px){
+    #banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: auto;
+        align-items: center;
+    }
+}
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    margin-top: 30px;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(235, 94, 85);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#sock {
+    text-decoration: overline;
+}
+span {
+    text-decoration: underline;
+}
+.startBtn {
+>>>>>>> d2778623ef74de098547a1889145f407ead4fac2
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+<<<<<<< HEAD
 
     border-radius: 30px;
     border-style: groove;
@@ -67,4 +115,16 @@ p {
 
     transition: ease-in;
     transition-duration: 0.5s;
+=======
+    background-color: rgb(217, 208, 222);
+    border-style: groove;
+    border-color: rgb(58, 80, 107);
+}
+.startBtn:hover {
+    background-color: rgb(68, 53, 91);
+    color: white;
+    cursor: pointer;
+    border-color: rgb(149, 25, 12);
+    transition: all 0.5s ease-in 0s;
+>>>>>>> d2778623ef74de098547a1889145f407ead4fac2
 }
