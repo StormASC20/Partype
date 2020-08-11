@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 body{
     margin:0px;
     background-color:#FFB5C2;
 
-=======
-body {
-    background-color: rgb(255, 181, 194);
-    margin: 0px;
->>>>>>> d2778623ef74de098547a1889145f407ead4fac2
 }
 
 #partype{
@@ -33,7 +27,6 @@ span{
 }
 
 h1{
-<<<<<<< HEAD
     font-size: medium;
 }
 
@@ -57,7 +50,10 @@ p {
     }
 }
 .startBtn{
-    font-size: medium;   
+    font-size: medium;
+    width: 25%;   
+    text-align: center;
+}
 }
 @media (max-width: 3100px){
     #banner {
@@ -94,17 +90,20 @@ span {
     text-decoration: underline;
 }
 .startBtn {
->>>>>>> d2778623ef74de098547a1889145f407ead4fac2
+/* >>>>>>> d2778623ef74de098547a1889145f407ead4fac2 */
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-<<<<<<< HEAD
 
     border-radius: 30px;
     border-style: groove;
     border-color: #3A506B;
     background-color: #D9D0DE;
+    font-size: 16x;
+    padding: 3px;
+    padding-left:5px;
+    padding-right:5px;
 }
 
 .startBtn:hover{
@@ -115,16 +114,70 @@ span {
 
     transition: ease-in;
     transition-duration: 0.5s;
-=======
-    background-color: rgb(217, 208, 222);
-    border-style: groove;
-    border-color: rgb(58, 80, 107);
 }
-.startBtn:hover {
-    background-color: rgb(68, 53, 91);
-    color: white;
-    cursor: pointer;
-    border-color: rgb(149, 25, 12);
-    transition: all 0.5s ease-in 0s;
->>>>>>> d2778623ef74de098547a1889145f407ead4fac2
+
+.nav {
+    background-color: hotpink;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: honeydew;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: teal;
+    color: thistle;
+    transition: ease-in;
+    transition-duration: 0.5s;
+}
+
+#wed {
+    width: 600px;
+}
+
+#tea {
+    width: 600px;
+    
+}
+
+#cake {
+    width: 600px;
+}
+
+#dance {
+    width:600px;
+    height:400px
+}
+
+.return{
+    border: white solid;
+    border-radius: 10px;
+    border-style: groove;
+    background: hotpink;
+}
+
+#glass {
+    width: 400px;
+}
+
+#aisle {
+    width: 400px;
+}
+
+#sign {
+    width: 400px;
+} 
+
+#sub {
+    font-size: x-large;
+}
+
+#fun {
+    align-items: center;
 }
