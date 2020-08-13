@@ -238,6 +238,11 @@ span {
 
 .container {
   padding: 16px;
+
+}
+
+.form{
+    text-align: right;
 }
 
 
